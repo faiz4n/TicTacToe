@@ -6,11 +6,18 @@ resetButton.addEventListener("click", () => {
 
     boxes.forEach((box) => {
         box.innerText = "";
+
+        for (box of boxes) {
+            box.style.pointerEvents = "all";
+            box.disabled = false;
+        }
+
+        
         for (let patterns of winPatterns) {
             let vp1 = boxes[patterns[0]];
             let vp2 = boxes[patterns[1]];
             let vp3 = boxes[patterns[2]];
-
+            
             vp1.classList.remove("winnerclass")
             vp2.classList.remove("winnerclass")
             vp3.classList.remove("winnerclass")
