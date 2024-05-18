@@ -26,6 +26,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .container{
     scale: 0.8;
@@ -85,4 +86,15 @@ body{
     justify-content: center;
 
     height: 60px;
+}
+
+.winnerclass{
+    background-color: red;
+    color: white;
+}
+
+h5{
+    color: white;
+    opacity: 40%;
+    font-size: large;
 }
