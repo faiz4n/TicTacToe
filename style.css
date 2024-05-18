@@ -56,7 +56,7 @@ body{
 }
 .box:hover{
     color: white;
-    background-color: rgba(135, 207, 235, 0.541)
+    background-color: rgba(135, 207, 235, 0.541);
 }
 .box:active{
     scale: 0.96;
