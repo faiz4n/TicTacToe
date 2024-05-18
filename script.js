@@ -6,6 +6,7 @@ resetButton.addEventListener("click", () => {
 
     boxes.forEach((box) => {
         box.innerText = "";
+        winnerName.innerText = "";
 
         for (box of boxes) {
             box.style.pointerEvents = "all";
